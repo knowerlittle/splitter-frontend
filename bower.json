@@ -7,9 +7,12 @@
     "ng-token-auth": "^0.0.29",
     "ionic-platform-web-client": "^0.7.1"
   },
-  "homepage": "https://github.com/jackhardy1/splitter-frontend",
+  "homepage": "https://github.com/knowerlittle/splitter-frontend",
   "authors": [
-    "Jack Hardy <jackhardy1@gmail.com>"
+    "Jack Hardy <jackhardy1@gmail.com>",
+    "Matthew Ward <iammatthewward@gmail.com>",
+    "Wayne Rumble <rumblewayne@gmail.com>",
+    "Noah Pollock <pollocknoah@gmail.com>"
   ],
   "description": "",
   "main": "",

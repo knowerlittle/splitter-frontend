@@ -25,7 +25,7 @@ describe("app home page", function() {
   it("shows the home page title", function() {
     browser.get('/');
     var h1 = $('#title');
-    expect(h1.getText()).toEqual('Welcome to Splitter');
+    expect(h1.getText()).toEqual('Welcome');
   });
 });
 

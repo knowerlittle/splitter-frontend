@@ -1,37 +1,59 @@
-# Splitter App
 
-Makers Academy final project
+<img src="http://i.imgur.com/nG93ITp.jpg" width="320">
 
-A bill splitter app, which uses optical character recognition to convert an image of a receipt to an editable list on an ios / android app, making the payment process less awkward, quicker & easier.
+A Bill Splitting Hybrid Phone App that converts a photo of a bill into a digital list of items. The list can be sent to different emails to request payment via Paypal. <a style="text-decoration:none" href="https://vimeo.com/knowerlittle/billsplitter">Watch App Video</a>.
+## App Frontend
+**Technologies used:**
+<br>
+`IONIC, AngularJS, JavaScript, ngCordova`
+<br>
+**Testing Frameworks:**
+<br>
+`Karma, Protractor`
 
-For this project, we used a completely de-coupled frontend and backend.
 
-For a live demo: https://vimeo.com/172722048.
+##Installation
 
-##Splitter Frontend
+1. Clone this repository
+2. Run `npm install`
+3. Run `bower install`
+4. Run `ionic serve` to run app in Web Browser
+<br> or `ionic serve --lab` for both iOS and Andriod emulators
+5. Backend is currently hosted on `http://splitterbackend.herokuapp.com`
+   <br> Since this is a free dyno it may be asleep! 
 
-### Technologies used
-- Ionic
-- AngularJS
+####Tests 
 
-### Instructions for use
-`$ git clone https://github.com/jackhardy1/splitter-frontend`  
-`$ npm install`  
-`$ bower install`
+Open each element in a **seperate** terminal tab
 
-### To run servers - make sure the following are running in separate tabs
-`$ npm run webdriver-manager start`  
-`$ npm run start`  
-`$ ionic serve`
+1. Run `npm run start`
+2. Run `npm start webdriver-manager start`
+3. Run `Ionic serve` make sure it is running on `localhost:8100`
+4. **UNIT TESTS** &nbsp; Run `karma start test/karma.conf.js`
+5. **FEATURE TESTS** &nbsp; run  `protractor test/protractor.conf.js`
 
-## To run the unit tests, using Karma, run:
-`$ karma start test/karma.conf.js`
+For more info on setting test environments for Karma and Protractor click [HERE](https://github.com/knowerlittle/setting_up_angular_notes)
 
-## To run the feature tests, using Protractor, run:
-`$ protractor test/protractor.conf.js`
+## How it works
+- To use on the phone you must use with `Adobe PhoneGap` or `Ionic View` 
+- Users sign up for an account so they can keep track of their bills
+- Users take a photo of a bill with their phone camera through the app
+- Image gets processed by the [BACK END](http://github.com/knowerlittle/splitter-backend)
+- The app then presents a list of items for the user to add or edit
+- User then selects which items they want to group and bill to different e-mail addresses until all items have been cleared from the list
+- Recipent receives the email with list of items and total with a Paypal link for payment
 
-##Contributors
-- Jack Hardy
-- Noah Pollock
-- Wayne Rumble
-- Matt Ward
+## Known Issues
+- Tesseract Gem needs to be tweaked for better results
+- Logging out is sometimes an issue (bug)
+
+
+## Authors
+- [Jack Hardy](https://github.com/jackhardy1)
+- [Wayne Rumble](https://github.com/wrumble)
+- [Matt Ward](https://github.com/iammatthewward)
+- [Noah Pollock](https://github.com/knowerlittle)
+
+License
+-------
+:hatching_chick: Free as a bird - 2016 :hatched_chick:
