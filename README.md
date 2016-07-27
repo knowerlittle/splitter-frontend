@@ -32,7 +32,7 @@ Open each element in a **seperate** terminal tab
 4. **UNIT TESTS** &nbsp; Run `karma start test/karma.conf.js`
 5. **FEATURE TESTS** &nbsp; run  `protractor test/protractor.conf.js`
 
-For more info on setting test environments for Karma and Protractor click [HERE](https://github.com/knowerlittle/setting_up_angular_notes)
+For more info on setting up test environments for Karma and Protractor click [HERE](https://github.com/knowerlittle/setting_up_angular_notes)
 
 ## How it works
 - To use on the phone you must use with `Adobe PhoneGap` or `Ionic View` 
