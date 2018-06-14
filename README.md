@@ -12,7 +12,7 @@ A Bill Splitting Hybrid Phone App that converts a photo of a bill into a digital
 `Karma, Protractor`
 
 
-##Installation
+## Installation
 
 1. Clone this repository
 2. Run `npm install`
@@ -22,7 +22,7 @@ A Bill Splitting Hybrid Phone App that converts a photo of a bill into a digital
 5. Backend is currently hosted on `http://splitterbackend.herokuapp.com`
    <br> Since this is a free dyno it may be asleep! 
 
-####Tests 
+#### Tests 
 
 Open each element in a **seperate** terminal tab
 
